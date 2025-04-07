@@ -242,8 +242,9 @@ footer a {
   }
 
   main table {
-    margin: auto;
+    margin-inline: auto;
     margin-block: 5rem;
+    width: 60%;
   }
 
   main article section h2 {
@@ -266,37 +267,61 @@ footer a {
     font-family: inherit;
   }
 
-  aside link {
-    font-size: 0.5rem;
-  }
-
   footer {
     font-size: 1.3rem;
   }
 }
 @media screen and (min-width: 1200px) {
   body {
+    /* 
     line-height: 3rem;
     font-size: 1.6rem;
-    padding-inline: 10rem;
+    padding-inline: 10rem; */
   }
   header {
-    vertical-align: middle;
-    margin: auto;
-    padding-inline: 0;
+    text-align: unset;
   }
   header div {
     display: inline-block;
-    text-align: initial;
-    margin: auto;
+    width: 50%;
+    margin-right: -4px;
   }
   header div img {
     display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
   }
   header div p {
     display: inline-block;
   }
   header nav {
     display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    text-align: right;
+  }
+
+  iframe {
+    margin-right: -4px;
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    height: 200px;
+  }
+
+  section {
+    margin-right: -4px;
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    border-radius: 20px;
+    height: 200px;
+  }
+
+  aside div {
+    display: inline-block;
+    text-align: center;
+    margin-right: -4px;
+    width: 33%;
   }
 }
