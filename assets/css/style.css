@@ -274,3 +274,29 @@ footer a {
     font-size: 1.3rem;
   }
 }
+@media screen and (min-width: 1200px) {
+  body {
+    line-height: 3rem;
+    font-size: 1.6rem;
+    padding-inline: 10rem;
+  }
+  header {
+    vertical-align: middle;
+    margin: auto;
+    padding-inline: 0;
+  }
+  header div {
+    display: inline-block;
+    text-align: initial;
+    margin: auto;
+  }
+  header div img {
+    display: inline-block;
+  }
+  header div p {
+    display: inline-block;
+  }
+  header nav {
+    display: inline-block;
+  }
+}
