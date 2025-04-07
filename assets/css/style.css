@@ -208,3 +208,69 @@ footer {
 footer a {
   color: fuchsia;
 }
+
+@media screen and (min-width: 576px) {
+  body {
+    line-height: 2.3rem;
+    padding: 1.8rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 0;
+  }
+  main {
+    padding: 2rem;
+  }
+  main article h1 {
+    padding-bottom: 3rem;
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+
+  main article h2 {
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+    font-size: medium;
+  }
+
+  main article ol {
+    padding-right: 1rem;
+  }
+
+  main table {
+    margin: auto;
+    margin-block: 5rem;
+  }
+
+  main article section h2 {
+    background-color: #a5a4a4;
+    padding-bottom: 0;
+  }
+
+  form fieldset input {
+    padding: 1rem;
+    min-width: 70%;
+    height: 100%;
+    font-size: xx-small;
+  }
+
+  form fieldset button {
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
+
+    font-weight: 100;
+    font-family: inherit;
+  }
+
+  aside link {
+    font-size: 0.5rem;
+  }
+
+  footer {
+    font-size: 1.3rem;
+  }
+}
